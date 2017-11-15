@@ -1,0 +1,1 @@
+trigger JoinSubscriptionChargeSubscriptionProductRatePlanTest on APTTaskTemplate__c (before delete)  { }

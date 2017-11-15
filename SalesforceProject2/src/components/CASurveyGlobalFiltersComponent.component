@@ -1,0 +1,73 @@
+<apex:component controller="CASurveyGlobalFiltersHelper">
+    <apex:attribute name="isCollapsed" description="If true filter list will be collapsed on load" type="Boolean" required="false" />
+    <apex:attribute name="isDeselectedAll" description="If true all filters will be deselected by defaults" type="Boolean" required="false" />
+    <!--
+        This component used for displaying filter list for CA Survey and gathering selected filters
+        For proper applying this component main JS controller should have next:
+        Functions:
+        reloadData() - getting surveys from Apex
+        initDaterangepicker(#PickerId, reloadData)
+
+        Variables:
+        filtersReady = 0; - ticker to wait for all filters applying and then call reloadData() on initial
+        regions = [];
+        teams = [];
+        callCenters = [];
+        concernResolved = []; 
+        concernTypes = [];
+        goodwill = [];
+
+        on page this component should be included in styled div, for example:
+
+    <style>
+        .filter {
+            position: absolute;
+            top: 0px;
+            left: 60%;
+            border-style: groove;
+            border-radius: 5px;
+            background-color: aliceblue;
+            width: 300px;
+        }                        
+    </style>
+
+    <div class="filter">
+        <c:CASurveyGlobalFiltersComponent />
+    </div>    
+-->     
+    <style>
+        .initiallyHidden {
+            display: none;
+        }
+
+        .filterItem {
+            font-weight: initial;
+        }
+
+        .filterGroup {
+            padding-left: 25px;
+        }
+
+        .filterItemsDiv {
+            padding-left: 40px;
+        }
+
+        #filtersList {
+            max-height: 260px;
+            overflow: auto;
+        }
+
+        .filterApplying {
+            margin: 10px 25px 15px 5px;
+        }
+    </style>        
+    <div id="Filters">
+        <div id="filtersList"></div>        
+    </div>
+    <script>
+        if ({!isCollapsed}){
+            document.getElementById('Filters').className = 'initiallyHidden';
+        }
+        var isDeselectedAll = {!isDeselectedAll};
+    </script>    
+</apex:component>

@@ -1,0 +1,1 @@
+trigger Trigger1_diz_mac44_C on AssistantRecommendation (before insert)  { }

@@ -1,0 +1,4 @@
+<design:component >
+	<design:attribute name="txtContact" label="Text to Search" description="Text to search Contact" />
+    <!--test-->
+</design:component>

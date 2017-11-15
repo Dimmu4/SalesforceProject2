@@ -1,0 +1,7 @@
+<apex:page controller="CASurveyNetPromoterFiltersController" showheader="false" sidebar="false" standardstylesheets="false">
+    <!--sd-->
+    <div class="filter">
+        <c:CASurveyGlobalFiltersComponent />
+    </div>
+    <!--test-->      
+</apex:page>

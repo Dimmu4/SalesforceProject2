@@ -1,0 +1,1 @@
+trigger Trigger1_diz840_C on AT_Adoption_Trend__c (after insert)  { }
