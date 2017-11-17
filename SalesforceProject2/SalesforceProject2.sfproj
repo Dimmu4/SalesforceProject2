@@ -66,6 +66,8 @@
     <Folder Include="components\" />
     <Folder Include="objects\" />
     <Folder Include="pages\" />
+    <Folder Include="permissionsets\" />
+    <Folder Include="profiles\" />
     <Folder Include="Soql" />
     <Folder Include="triggers\" />
   </ItemGroup>
@@ -4666,6 +4668,278 @@
       <Id>01Ig00000002Cg1EAE</Id>
       <LastModifiedDateUtcTicks>131552256116732649</LastModifiedDateUtcTicks>
       <Hash>4o3eMqpHnyaRPb/orEcbrA==</Hash>
+    </Object>
+    <Object Include="permissionsets\Alice_In_Chains.permissionset">
+      <SubType>PermissionSet</SubType>
+      <PhysicalRelativePath>src\permissionsets\Alice_In_Chains.permissionset</PhysicalRelativePath>
+      <Id>0PSg0000000DZTFGA4</Id>
+      <Hash>/pxxeuF/AgvQYm8J94c2fw==</Hash>
+      <LastModifiedDateUtcTicks>131510721660000000</LastModifiedDateUtcTicks>
+      <MetadataType>PermissionSet</MetadataType>
+    </Object>
+    <Object Include="permissionsets\Deep_Purple.permissionset">
+      <SubType>PermissionSet</SubType>
+      <PhysicalRelativePath>src\permissionsets\Deep_Purple.permissionset</PhysicalRelativePath>
+      <Id>0PSg000000058ksGAA</Id>
+      <Hash>kWZpy+kM2eWfsgj2WZ9rHw==</Hash>
+      <LastModifiedDateUtcTicks>131540434600000000</LastModifiedDateUtcTicks>
+      <MetadataType>PermissionSet</MetadataType>
+    </Object>
+    <Object Include="permissionsets\Joy_Division.permissionset">
+      <SubType>PermissionSet</SubType>
+      <PhysicalRelativePath>src\permissionsets\Joy_Division.permissionset</PhysicalRelativePath>
+      <Id>0PSg000000058knGAA</Id>
+      <Hash>MV2AeHRU6WmnN6sFGwowHg==</Hash>
+      <LastModifiedDateUtcTicks>131461352460000000</LastModifiedDateUtcTicks>
+      <MetadataType>PermissionSet</MetadataType>
+    </Object>
+    <Object Include="permissionsets\Metallica.permissionset">
+      <SubType>PermissionSet</SubType>
+      <PhysicalRelativePath>src\permissionsets\Metallica.permissionset</PhysicalRelativePath>
+      <Id>0PSg0000000DZTKGA4</Id>
+      <Hash>i4XTuFbIxoqU8mvFTI3mNg==</Hash>
+      <LastModifiedDateUtcTicks>131505616770000000</LastModifiedDateUtcTicks>
+      <MetadataType>PermissionSet</MetadataType>
+    </Object>
+    <Object Include="permissionsets\Papa_Roach.permissionset">
+      <SubType>PermissionSet</SubType>
+      <PhysicalRelativePath>src\permissionsets\Papa_Roach.permissionset</PhysicalRelativePath>
+      <Id>0PSg000000058kOGAQ</Id>
+      <Hash>h8UkwhtQ991+WEelYsyQpA==</Hash>
+      <LastModifiedDateUtcTicks>131527254720000000</LastModifiedDateUtcTicks>
+      <MetadataType>PermissionSet</MetadataType>
+    </Object>
+    <Object Include="permissionsets\Pink_Floyd.permissionset">
+      <SubType>PermissionSet</SubType>
+      <PhysicalRelativePath>src\permissionsets\Pink_Floyd.permissionset</PhysicalRelativePath>
+      <Id>0PSg000000058kTGAQ</Id>
+      <Hash>d/BhwPl0eKS4iIQ4yYfLNw==</Hash>
+      <LastModifiedDateUtcTicks>131540435370000000</LastModifiedDateUtcTicks>
+      <MetadataType>PermissionSet</MetadataType>
+    </Object>
+    <Object Include="permissionsets\StoreAdmin.permissionset">
+      <SubType>PermissionSet</SubType>
+      <PhysicalRelativePath>src\permissionsets\StoreAdmin.permissionset</PhysicalRelativePath>
+      <Id>0PSf4000000bsQ3GAI</Id>
+      <Hash>o5zbxDJdLH7Rmt6ZKrps/A==</Hash>
+      <LastModifiedDateUtcTicks>131435711380000000</LastModifiedDateUtcTicks>
+      <MetadataType>PermissionSet</MetadataType>
+    </Object>
+    <Object Include="permissionsets\StoreUser.permissionset">
+      <SubType>PermissionSet</SubType>
+      <PhysicalRelativePath>src\permissionsets\StoreUser.permissionset</PhysicalRelativePath>
+      <Id>0PSf4000000bsQ4GAI</Id>
+      <Hash>Z4fGF6pr2cJlUYRB6zJIbg==</Hash>
+      <LastModifiedDateUtcTicks>131435711390000000</LastModifiedDateUtcTicks>
+      <MetadataType>PermissionSet</MetadataType>
+    </Object>
+    <Object Include="profiles\%3Cdiz%2A%E2%84%96layout%24%23X2%3E.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\%3Cdiz%2A%E2%84%96layout%24%23X2%3E.profile</PhysicalRelativePath>
+      <Id>00eg0000000E4vgAAC</Id>
+      <Hash>SpD4kYz4oyIe0H+ipWkSzA==</Hash>
+      <LastModifiedDateUtcTicks>131548086340000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Admin.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Admin.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydW2AAI</Id>
+      <Hash>PsV+8WwaQKZeuoaxDs5TGg==</Hash>
+      <LastModifiedDateUtcTicks>131548086460000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Analytics Cloud Integration User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Analytics Cloud Integration User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWLAAY</Id>
+      <Hash>K+8hVDtLTqvvTzZDDp6++g==</Hash>
+      <LastModifiedDateUtcTicks>131548086370000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Analytics Cloud Security User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Analytics Cloud Security User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWMAAY</Id>
+      <Hash>qcO490DvaKHa6PdeWONXPQ==</Hash>
+      <LastModifiedDateUtcTicks>131548086400000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Chatter External User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Chatter External User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWBAAY</Id>
+      <Hash>SqCpuYLiGOkC4z49KJgzJg==</Hash>
+      <LastModifiedDateUtcTicks>131494103690000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Chatter Free User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Chatter Free User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydW5AAI</Id>
+      <Hash>9nbss8JN1gDd9HUq9StCsQ==</Hash>
+      <LastModifiedDateUtcTicks>131494103690000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Chatter Moderator User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Chatter Moderator User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWCAAY</Id>
+      <Hash>iuBWOSzBF5IxGbitnBc5Pw==</Hash>
+      <LastModifiedDateUtcTicks>131494103690000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Chatter Only User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Chatter Only User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWKAAY</Id>
+      <Hash>RCiKmiAEsenRN+WLrg3GyQ==</Hash>
+      <LastModifiedDateUtcTicks>131548086350000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Company Communities User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Company Communities User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWOAAY</Id>
+      <Hash>ORJ9yKusP145h0PksBl9ew==</Hash>
+      <LastModifiedDateUtcTicks>131548086410000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\ContractManager.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\ContractManager.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWAAAY</Id>
+      <Hash>ida73ciiEcrUgklwpnuLCA==</Hash>
+      <LastModifiedDateUtcTicks>131548086360000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Customer Community Login User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Customer Community Login User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWNAAY</Id>
+      <Hash>A6jbkobX5jiOF8U6aQC3Kw==</Hash>
+      <LastModifiedDateUtcTicks>131494103690000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Customer Community Plus Login User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Customer Community Plus Login User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWPAAY</Id>
+      <Hash>YBBvp9a8E5GBURzt/XbXAw==</Hash>
+      <LastModifiedDateUtcTicks>131494103690000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Customer Community Plus User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Customer Community Plus User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWGAAY</Id>
+      <Hash>E5T1bw61FB7hRBYCNCb2AA==</Hash>
+      <LastModifiedDateUtcTicks>131494103690000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Customer Community User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Customer Community User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWFAAY</Id>
+      <Hash>l8eMo3fwUujF84SNz62uwQ==</Hash>
+      <LastModifiedDateUtcTicks>131494103690000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\diz%2E%2Eprofile%2E%2E%2Enew%2E%2E%2E.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\diz%2E%2Eprofile%2E%2E%2Enew%2E%2E%2E.profile</PhysicalRelativePath>
+      <Id>00eg0000000I6FgAAK</Id>
+      <Hash>St1NtS70TBs7J9kmKFMS4w==</Hash>
+      <LastModifiedDateUtcTicks>131548086380000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\diz%2Ftest%2F%2Fp%2E%2Erofile.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\diz%2Ftest%2F%2Fp%2E%2Erofile.profile</PhysicalRelativePath>
+      <Id>00eg0000000E4vlAAC</Id>
+      <Hash>SpD4kYz4oyIe0H+ipWkSzA==</Hash>
+      <LastModifiedDateUtcTicks>131548086430000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Guest License User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Guest License User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWDAAY</Id>
+      <Hash>NZIq+ekOlOQOt54TRo0Y4A==</Hash>
+      <LastModifiedDateUtcTicks>131494103690000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\High Volume Customer Portal User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\High Volume Customer Portal User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWEAAY</Id>
+      <Hash>Mh3kcHkma/B05c6xhut69w==</Hash>
+      <LastModifiedDateUtcTicks>131494103690000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\MarketingProfile.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\MarketingProfile.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydW9AAI</Id>
+      <Hash>6DXLVETHV6kjnJyiX7S9vw==</Hash>
+      <LastModifiedDateUtcTicks>131548086440000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Partner Community Login User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Partner Community Login User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWIAAY</Id>
+      <Hash>gjiCXx1j4ulm8ljZLwIU/Q==</Hash>
+      <LastModifiedDateUtcTicks>131548086390000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Partner Community User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Partner Community User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWHAAY</Id>
+      <Hash>LiSjGd41D/gN63IJeNWItw==</Hash>
+      <LastModifiedDateUtcTicks>131548086440000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\ReadOnly.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\ReadOnly.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydW7AAI</Id>
+      <Hash>br4++YwwASvgIiMQWTeQYw==</Hash>
+      <LastModifiedDateUtcTicks>131548086390000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\SolutionManager.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\SolutionManager.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydW8AAI</Id>
+      <Hash>lvAc4ckzpPVBxwKFxMAzPA==</Hash>
+      <LastModifiedDateUtcTicks>131548086450000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Standard.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Standard.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydW6AAI</Id>
+      <Hash>nYthji1dV2M4d08uK3g9rA==</Hash>
+      <LastModifiedDateUtcTicks>131548086460000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\StandardAul.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\StandardAul.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWQAAY</Id>
+      <Hash>X1WBafZpyIAuEUmL/v6nGg==</Hash>
+      <LastModifiedDateUtcTicks>131548086450000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
+    </Object>
+    <Object Include="profiles\Work%2Ecom Only User.profile">
+      <SubType>Profile</SubType>
+      <PhysicalRelativePath>src\profiles\Work%2Ecom Only User.profile</PhysicalRelativePath>
+      <Id>00ef4000000ydWJAAY</Id>
+      <Hash>oq3qUY300iU8VWwI9oO04g==</Hash>
+      <LastModifiedDateUtcTicks>131548086360000000</LastModifiedDateUtcTicks>
+      <MetadataType>Profile</MetadataType>
     </Object>
   </ItemGroup>
   <ItemGroup>
