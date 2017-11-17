@@ -21,7 +21,7 @@
             params = new Map<String,String>();
         }
     }
-    //TODO: diz handle
+    //TODO: handle
 	public string getLinkTo(PageReference page){
 		return page.getUrl()+'?'+paramsString;
 	}

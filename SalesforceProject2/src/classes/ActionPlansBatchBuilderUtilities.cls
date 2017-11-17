@@ -46,8 +46,7 @@ public with sharing class ActionPlansBatchBuilderUtilities {
     private List<Task>  myTasksWithOutEmail         { get; set; }
     private List<Task>  myOldTasksWithEmail         { get; set; }
     private List<Task>  myNewTasksWithEmail         { get; set; }
-    
-    //test_xxx
+   
     //constructor
     public ActionPlansBatchBuilderUtilities(ActionPlan__c baseObj,List<APTaskTemplate__c> aPTList, String refType, List<String> oIdsLIst){
     
